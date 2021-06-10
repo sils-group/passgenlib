@@ -1,0 +1,26 @@
+{
+  "name": "passgen",
+  "version": "1.0.0",
+  "description": "Password generator library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sils-group/passgenlib.git"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "passwordgenerator",
+    "pwd"
+  ],
+  "author": "david kayembe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sils-group/passgenlib/issues"
+  },
+  "homepage": "https://github.com/sils-group/passgenlib#readme"
+}
